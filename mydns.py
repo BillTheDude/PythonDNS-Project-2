@@ -1,3 +1,7 @@
+#STUDENT ID: 5847813
+#STUDENT NAME: BILL LIZA
+#CNT4713 - PROJECT 2 2020
+
 import socket, glob, json
 
 port = 53
