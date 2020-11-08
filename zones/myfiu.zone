@@ -1,0 +1,24 @@
+{
+     "$origin": "cs.fiu.edu.",
+    "$ttl": 3600,
+    "soa": {
+        "mname": "ns1.cs.fiu.edu.",
+        "rname": "admin.cs.fiu.edu.",
+        "serial": "{time}",
+        "refresh": 3600,
+        "retry": 600,
+        "expire": 604800,
+        "minimum": 86400
+    },
+    "ns": [
+        { "host": "ns1.cs.fiu.edu." },
+        { "host": "ns2.cs.fiu.edu." }
+    ],
+    "a": [
+        { "name": "@", "ttl": 400, "value": "255.255.255.255" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.1" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.1" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.1" },
+        { "name": "@", "ttl": 400, "value": "10.10.10.10" }
+    ]
+}
